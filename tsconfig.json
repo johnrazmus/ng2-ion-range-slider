@@ -1,22 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "commonjs",
     "removeComments": true,
-    "noImplicitAny": false,
-    "suppressImplicitAnyIndexErrors": true,
-    "declaration": true,
-    "lib": ["es2015", "dom"],
+    "sourceMap": false,
     "outDir": "lib",
-    "rootDir": "src"
+    "declaration": true,
+    "lib": [
+      "es2016",
+      "dom"
+    ]
   },
 
   "include": [
-    "src/*.component.ts",
-    "src/*.module.ts"
+    ".tmp/**/*"
   ]
 }
