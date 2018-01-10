@@ -1,2 +1,2 @@
-export { IonRangeSliderModule } from './src/ion-range-slider.module'
-export { IonRangeSliderComponent } from './src/ion-range-slider.component'
+export { IonRangeSliderModule } from './lib/ion-range-slider.module'
+export { IonRangeSliderComponent } from './lib/ion-range-slider.component'
