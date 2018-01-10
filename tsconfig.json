@@ -7,7 +7,7 @@
     "module": "commonjs",
     "removeComments": true,
     "sourceMap": false,
-    "outDir": "lib",
+    "outDir": "./lib",
     "declaration": true,
     "lib": [
       "es2016",
